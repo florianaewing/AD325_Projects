@@ -1,0 +1,11 @@
+I chose the Recommendation System Program for a number of reasons. Number one, I am not interesting in generating fake data.
+Working with real data is much more satisfying and aligns with the goals of the data scientist.
+Two, I really enjoy videogames. I don't have time to play them anymore, and when I do, it isn't so easy to enjoy them as it used to be.
+I still haven't figured this out yet, but seeing all the names brought back a satisfying sense of nostalgia. 
+This program was fun to write, and it was interesting to consider the merits of one collision avoidance technique over another. 
+As its name suggests, quadratic probing was a much less efficient technique, taking more time and causing a much larger number of collisions. 
+Separate chaining was always much much faster and nearly eliminated any chance of causing a collision. 
+I hope you can still find the time to play videogames every day! I am hoping that someday soon I can reintroduce myself to the joy that they used to bring me. 
+Florian Ewing
+
+

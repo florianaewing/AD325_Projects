@@ -1,0 +1,96 @@
+
+Using collision avoidance technique: separate_chaining
+Hash table content for technique separate_chaining:
+Index 0: []
+Index 1: [('user5', 'StarCraft'), ('user5', 'Bioshock'), ('user5', 'Splatoon'), ('user5', 'Silent Hill'), ('user5', 'Minecraft'), ('user5', 'Forza Horizon'), ('user5', 'Super Mario Bros'), ('user5', 'Dota 2'), ('user5', 'Animal Crossing')]
+Index 2: [('user6', 'League of Legends'), ('user6', "Assassin's Creed"), ('user6', 'Super Mario Bros'), ('user6', 'Bayonetta'), ('user6', 'Battlefield'), ('user6', 'Far Cry'), ('user6', 'The Last of Us'), ('user6', 'Ghost of Tsushima'), ('user6', 'Bloodborne'), ('user6', 'Horizon Zero Dawn'), ('user6', 'Sekiro'), ('user6', 'Gears of War'), ('user1', 'League of Legends'), ('user1', 'Red Dead Redemption 2'), ('user1', 'Grand Theft Auto V'), ('user1', 'Dragon Age'), ('user1', 'Super Mario Bros'), ('user1', 'Fire Emblem'), ('user1', 'Bayonetta'), ('user1', 'Portal'), ('user1', 'Metal Gear Solid'), ('user1', 'Far Cry'), ('user1', 'World of Warcraft'), ('user1', 'Ghost of Tsushima'), ('user1', 'Animal Crossing'), ('user1', 'Uncharted')]
+Index 3: [('user2', 'Diablo'), ('user2', 'Metroid'), ('user2', 'Resident Evil'), ('user2', 'Bioshock'), ('user2', 'League of Legends'), ('user2', 'Red Dead Redemption 2'), ('user2', 'Silent Hill'), ('user2', 'Fortnite'), ('user2', 'Spider-Man'), ('user2', 'Battlefield'), ('user2', 'The Legend of Zelda'), ('user2', 'Half-Life'), ('user2', 'The Elder Scrolls V: Skyrim'), ('user2', 'Sekiro'), ('user2', 'The Last of Us'), ('user2', 'Mass Effect')]
+Index 4: []
+Index 5: [('user7', 'Resident Evil'), ('user7', 'Splatoon'), ('user7', 'Silent Hill'), ('user7', 'Minecraft'), ('user7', 'Portal'), ('user7', 'Fire Emblem'), ('user7', 'Bayonetta'), ('user7', 'Dota 2'), ('user7', 'Half-Life'), ('user7', 'Final Fantasy')]
+Index 6: []
+Index 7: [('user3', 'God of War'), ('user3', 'Splatoon'), ('user3', 'Dragon Age'), ('user3', 'Battlefield'), ('user3', 'Persona 5'), ('user3', 'Cyberpunk 2077'), ('user3', 'Gears of War'), ('user3', 'Call of Duty'), ('user3', 'Bloodborne'), ('user3', 'Diablo'), ('user3', 'Dark Souls'), ('user3', 'The Witcher 3'), ('user3', 'Fortnite'), ('user3', 'Half-Life'), ('user3', 'World of Warcraft'), ('user3', 'Spider-Man'), ('user3', 'Metal Gear Solid'), ('user3', 'The Legend of Zelda'), ('user3', 'The Last of Us')]
+Index 8: [('user4', 'Resident Evil'), ('user4', 'Fallout'), ('user4', 'Bioshock'), ('user4', 'The Witcher 3'), ('user4', 'Minecraft'), ('user4', 'Bayonetta'), ('user4', 'The Legend of Zelda'), ('user4', 'Cyberpunk 2077'), ('user4', 'Elden Ring')]
+Index 9: []
+Items for target user user1: {'League of Legends', 'Red Dead Redemption 2', 'Grand Theft Auto V', 'Dragon Age', 'Super Mario Bros', 'Fire Emblem', 'Bayonetta', 'Portal', 'Metal Gear Solid', 'Far Cry', 'World of Warcraft', 'Ghost of Tsushima', 'Animal Crossing', 'Uncharted'}
+Items for user user6: {'League of Legends', "Assassin's Creed", 'Super Mario Bros', 'Gears of War', 'Battlefield', 'Bayonetta', 'Far Cry', 'Ghost of Tsushima', 'Bloodborne', 'Horizon Zero Dawn', 'Sekiro', 'The Last of Us'}
+Items for user user4: {'Resident Evil', 'Fallout', 'Bioshock', 'The Witcher 3', 'Minecraft', 'Bayonetta', 'The Legend of Zelda', 'Cyberpunk 2077', 'Elden Ring'}
+Items for user user5: {'StarCraft', 'Bioshock', 'Splatoon', 'Silent Hill', 'Minecraft', 'Forza Horizon', 'Super Mario Bros', 'Dota 2', 'Animal Crossing'}
+Items for user user2: {'Diablo', 'Metroid', 'Resident Evil', 'Bioshock', 'League of Legends', 'Red Dead Redemption 2', 'Silent Hill', 'Fortnite', 'Spider-Man', 'Battlefield', 'The Legend of Zelda', 'Half-Life', 'The Elder Scrolls V: Skyrim', 'Sekiro', 'The Last of Us', 'Mass Effect'}
+Items for user user7: {'Resident Evil', 'Splatoon', 'Silent Hill', 'Minecraft', 'Portal', 'Fire Emblem', 'Bayonetta', 'Dota 2', 'Half-Life', 'Final Fantasy'}
+Items for user user3: {'Splatoon', 'God of War', 'Dragon Age', 'Battlefield', 'Persona 5', 'Cyberpunk 2077', 'Call of Duty', 'Gears of War', 'Bloodborne', 'Diablo', 'Dark Souls', 'The Witcher 3', 'Fortnite', 'Half-Life', 'World of Warcraft', 'Spider-Man', 'Metal Gear Solid', 'The Legend of Zelda', 'The Last of Us'}
+Recommendations for user1: ['Battlefield', 'The Last of Us', 'Gears of War']
+Insertion Time: 0.000658 seconds
+Retrieval Time: 0.000262 seconds
+Collisions: 83
+
+Using collision avoidance technique: linear_probing
+Hash table content for technique linear_probing:
+Index 0: None
+Index 1: ('user5', ['StarCraft', 'Bioshock', 'Splatoon', 'Silent Hill', 'Minecraft', 'Forza Horizon', 'Super Mario Bros', 'Dota 2', 'Animal Crossing'])
+Index 2: ('user6', ['League of Legends', "Assassin's Creed", 'Super Mario Bros', 'Bayonetta', 'Battlefield', 'Far Cry', 'The Last of Us', 'Ghost of Tsushima', 'Bloodborne', 'Horizon Zero Dawn', 'Sekiro', 'Gears of War'])
+Index 3: ('user1', ['League of Legends', 'Red Dead Redemption 2', 'Grand Theft Auto V', 'Dragon Age', 'Super Mario Bros', 'Fire Emblem', 'Bayonetta', 'Portal', 'Metal Gear Solid', 'Far Cry', 'World of Warcraft', 'Ghost of Tsushima', 'Animal Crossing', 'Uncharted'])
+Index 4: ('user2', ['Diablo', 'Metroid', 'Resident Evil', 'Bioshock', 'League of Legends', 'Red Dead Redemption 2', 'Silent Hill', 'Fortnite', 'Spider-Man', 'Battlefield', 'The Legend of Zelda', 'Half-Life', 'The Elder Scrolls V: Skyrim', 'Sekiro', 'The Last of Us', 'Mass Effect'])
+Index 5: ('user7', ['Resident Evil', 'Splatoon', 'Silent Hill', 'Minecraft', 'Portal', 'Fire Emblem', 'Bayonetta', 'Dota 2', 'Half-Life', 'Final Fantasy'])
+Index 6: None
+Index 7: ('user3', ['God of War', 'Splatoon', 'Dragon Age', 'Battlefield', 'Persona 5', 'Cyberpunk 2077', 'Gears of War', 'Call of Duty', 'Bloodborne', 'Diablo', 'Dark Souls', 'The Witcher 3', 'Fortnite', 'Half-Life', 'World of Warcraft', 'Spider-Man', 'Metal Gear Solid', 'The Legend of Zelda', 'The Last of Us'])
+Index 8: ('user4', ['Resident Evil', 'Fallout', 'Bioshock', 'The Witcher 3', 'Minecraft', 'Bayonetta', 'The Legend of Zelda', 'Cyberpunk 2077', 'Elden Ring'])
+Index 9: None
+Items for target user user1: {'League of Legends', 'Red Dead Redemption 2', 'Grand Theft Auto V', 'Dragon Age', 'Super Mario Bros', 'Fire Emblem', 'Bayonetta', 'Portal', 'Metal Gear Solid', 'Far Cry', 'World of Warcraft', 'Ghost of Tsushima', 'Animal Crossing', 'Uncharted'}
+Items for user user6: {'League of Legends', "Assassin's Creed", 'Super Mario Bros', 'Gears of War', 'Battlefield', 'Bayonetta', 'Far Cry', 'Ghost of Tsushima', 'Bloodborne', 'Horizon Zero Dawn', 'Sekiro', 'The Last of Us'}
+Items for user user4: {'Resident Evil', 'Fallout', 'Bioshock', 'The Witcher 3', 'Minecraft', 'Bayonetta', 'The Legend of Zelda', 'Cyberpunk 2077', 'Elden Ring'}
+Items for user user5: {'StarCraft', 'Bioshock', 'Splatoon', 'Silent Hill', 'Minecraft', 'Forza Horizon', 'Super Mario Bros', 'Dota 2', 'Animal Crossing'}
+Items for user user2: {'Diablo', 'Metroid', 'Resident Evil', 'Bioshock', 'League of Legends', 'Red Dead Redemption 2', 'Silent Hill', 'Fortnite', 'Spider-Man', 'Battlefield', 'The Legend of Zelda', 'Half-Life', 'The Elder Scrolls V: Skyrim', 'Sekiro', 'The Last of Us', 'Mass Effect'}
+Items for user user7: {'Resident Evil', 'Splatoon', 'Silent Hill', 'Minecraft', 'Portal', 'Fire Emblem', 'Bayonetta', 'Dota 2', 'Half-Life', 'Final Fantasy'}
+Items for user user3: {'Splatoon', 'God of War', 'Dragon Age', 'Battlefield', 'Persona 5', 'Cyberpunk 2077', 'Call of Duty', 'Gears of War', 'Bloodborne', 'Diablo', 'Dark Souls', 'The Witcher 3', 'Fortnite', 'Half-Life', 'World of Warcraft', 'Spider-Man', 'Metal Gear Solid', 'The Legend of Zelda', 'The Last of Us'}
+Recommendations for user1: ['Battlefield', 'The Last of Us', 'Gears of War']
+Insertion Time: 0.000843 seconds
+Retrieval Time: 0.000320 seconds
+Collisions: 30
+
+Using collision avoidance technique: quadratic_probing
+Hash table content for technique quadratic_probing:
+Index 0: None
+Index 1: ('user5', ['StarCraft', 'Bioshock', 'Splatoon', 'Silent Hill', 'Minecraft', 'Forza Horizon', 'Super Mario Bros', 'Dota 2', 'Animal Crossing'])
+Index 2: ('user6', ['League of Legends', "Assassin's Creed", 'Super Mario Bros', 'Bayonetta', 'Battlefield', 'Far Cry', 'The Last of Us', 'Ghost of Tsushima', 'Bloodborne', 'Horizon Zero Dawn', 'Sekiro', 'Gears of War'])
+Index 3: ('user1', ['League of Legends', 'Red Dead Redemption 2', 'Grand Theft Auto V', 'Dragon Age', 'Super Mario Bros', 'Fire Emblem', 'Bayonetta', 'Portal', 'Metal Gear Solid', 'Far Cry', 'World of Warcraft', 'Ghost of Tsushima', 'Animal Crossing', 'Uncharted'])
+Index 4: ('user2', ['Diablo', 'Metroid', 'Resident Evil', 'Bioshock', 'League of Legends', 'Red Dead Redemption 2', 'Silent Hill', 'Fortnite', 'Spider-Man', 'Battlefield', 'The Legend of Zelda', 'Half-Life', 'The Elder Scrolls V: Skyrim', 'Sekiro', 'The Last of Us', 'Mass Effect'])
+Index 5: ('user7', ['Resident Evil', 'Splatoon', 'Silent Hill', 'Minecraft', 'Portal', 'Fire Emblem', 'Bayonetta', 'Dota 2', 'Half-Life', 'Final Fantasy'])
+Index 6: None
+Index 7: ('user3', ['God of War', 'Splatoon', 'Dragon Age', 'Battlefield', 'Persona 5', 'Cyberpunk 2077', 'Gears of War', 'Call of Duty', 'Bloodborne', 'Diablo', 'Dark Souls', 'The Witcher 3', 'Fortnite', 'Half-Life', 'World of Warcraft', 'Spider-Man', 'Metal Gear Solid', 'The Legend of Zelda', 'The Last of Us'])
+Index 8: ('user4', ['Resident Evil', 'Fallout', 'Bioshock', 'The Witcher 3', 'Minecraft', 'Bayonetta', 'The Legend of Zelda', 'Cyberpunk 2077', 'Elden Ring'])
+Index 9: None
+Items for target user user1: {'League of Legends', 'Red Dead Redemption 2', 'Grand Theft Auto V', 'Dragon Age', 'Super Mario Bros', 'Fire Emblem', 'Bayonetta', 'Portal', 'Metal Gear Solid', 'Far Cry', 'World of Warcraft', 'Ghost of Tsushima', 'Animal Crossing', 'Uncharted'}
+Items for user user6: {'League of Legends', "Assassin's Creed", 'Super Mario Bros', 'Gears of War', 'Battlefield', 'Bayonetta', 'Far Cry', 'Ghost of Tsushima', 'Bloodborne', 'Horizon Zero Dawn', 'Sekiro', 'The Last of Us'}
+Items for user user4: {'Resident Evil', 'Fallout', 'Bioshock', 'The Witcher 3', 'Minecraft', 'Bayonetta', 'The Legend of Zelda', 'Cyberpunk 2077', 'Elden Ring'}
+Items for user user5: {'StarCraft', 'Bioshock', 'Splatoon', 'Silent Hill', 'Minecraft', 'Forza Horizon', 'Super Mario Bros', 'Dota 2', 'Animal Crossing'}
+Items for user user2: {'Diablo', 'Metroid', 'Resident Evil', 'Bioshock', 'League of Legends', 'Red Dead Redemption 2', 'Silent Hill', 'Fortnite', 'Spider-Man', 'Battlefield', 'The Legend of Zelda', 'Half-Life', 'The Elder Scrolls V: Skyrim', 'Sekiro', 'The Last of Us', 'Mass Effect'}
+Items for user user7: {'Resident Evil', 'Splatoon', 'Silent Hill', 'Minecraft', 'Portal', 'Fire Emblem', 'Bayonetta', 'Dota 2', 'Half-Life', 'Final Fantasy'}
+Items for user user3: {'Splatoon', 'God of War', 'Dragon Age', 'Battlefield', 'Persona 5', 'Cyberpunk 2077', 'Call of Duty', 'Gears of War', 'Bloodborne', 'Diablo', 'Dark Souls', 'The Witcher 3', 'Fortnite', 'Half-Life', 'World of Warcraft', 'Spider-Man', 'Metal Gear Solid', 'The Legend of Zelda', 'The Last of Us'}
+Recommendations for user1: ['Battlefield', 'The Last of Us', 'Gears of War']
+Insertion Time: 0.000197 seconds
+Retrieval Time: 0.000123 seconds
+Collisions: 30
+
+Using collision avoidance technique: double_hashing
+Hash table content for technique double_hashing:
+Index 0: None
+Index 1: ('user5', ['StarCraft', 'Bioshock', 'Splatoon', 'Silent Hill', 'Minecraft', 'Forza Horizon', 'Super Mario Bros', 'Dota 2', 'Animal Crossing'])
+Index 2: ('user6', ['League of Legends', "Assassin's Creed", 'Super Mario Bros', 'Bayonetta', 'Battlefield', 'Far Cry', 'The Last of Us', 'Ghost of Tsushima', 'Bloodborne', 'Horizon Zero Dawn', 'Sekiro', 'Gears of War'])
+Index 3: ('user2', ['Diablo', 'Metroid', 'Resident Evil', 'Bioshock', 'League of Legends', 'Red Dead Redemption 2', 'Silent Hill', 'Fortnite', 'Spider-Man', 'Battlefield', 'The Legend of Zelda', 'Half-Life', 'The Elder Scrolls V: Skyrim', 'Sekiro', 'The Last of Us', 'Mass Effect'])
+Index 4: None
+Index 5: ('user7', ['Resident Evil', 'Splatoon', 'Silent Hill', 'Minecraft', 'Portal', 'Fire Emblem', 'Bayonetta', 'Dota 2', 'Half-Life', 'Final Fantasy'])
+Index 6: ('user1', ['League of Legends', 'Red Dead Redemption 2', 'Grand Theft Auto V', 'Dragon Age', 'Super Mario Bros', 'Fire Emblem', 'Bayonetta', 'Portal', 'Metal Gear Solid', 'Far Cry', 'World of Warcraft', 'Ghost of Tsushima', 'Animal Crossing', 'Uncharted'])
+Index 7: ('user3', ['God of War', 'Splatoon', 'Dragon Age', 'Battlefield', 'Persona 5', 'Cyberpunk 2077', 'Gears of War', 'Call of Duty', 'Bloodborne', 'Diablo', 'Dark Souls', 'The Witcher 3', 'Fortnite', 'Half-Life', 'World of Warcraft', 'Spider-Man', 'Metal Gear Solid', 'The Legend of Zelda', 'The Last of Us'])
+Index 8: ('user4', ['Resident Evil', 'Fallout', 'Bioshock', 'The Witcher 3', 'Minecraft', 'Bayonetta', 'The Legend of Zelda', 'Cyberpunk 2077', 'Elden Ring'])
+Index 9: None
+Items for target user user1: {'League of Legends', 'Red Dead Redemption 2', 'Grand Theft Auto V', 'Dragon Age', 'Super Mario Bros', 'Fire Emblem', 'Bayonetta', 'Portal', 'Metal Gear Solid', 'Far Cry', 'World of Warcraft', 'Ghost of Tsushima', 'Animal Crossing', 'Uncharted'}
+Items for user user6: {'League of Legends', "Assassin's Creed", 'Super Mario Bros', 'Gears of War', 'Battlefield', 'Bayonetta', 'Far Cry', 'Ghost of Tsushima', 'Bloodborne', 'Horizon Zero Dawn', 'Sekiro', 'The Last of Us'}
+Items for user user4: {'Resident Evil', 'Fallout', 'Bioshock', 'The Witcher 3', 'Minecraft', 'Bayonetta', 'The Legend of Zelda', 'Cyberpunk 2077', 'Elden Ring'}
+Items for user user5: {'StarCraft', 'Bioshock', 'Splatoon', 'Silent Hill', 'Minecraft', 'Forza Horizon', 'Super Mario Bros', 'Dota 2', 'Animal Crossing'}
+Items for user user2: {'Diablo', 'Metroid', 'Resident Evil', 'Bioshock', 'League of Legends', 'Red Dead Redemption 2', 'Silent Hill', 'Fortnite', 'Spider-Man', 'Battlefield', 'The Legend of Zelda', 'Half-Life', 'The Elder Scrolls V: Skyrim', 'Sekiro', 'The Last of Us', 'Mass Effect'}
+Items for user user7: {'Resident Evil', 'Splatoon', 'Silent Hill', 'Minecraft', 'Portal', 'Fire Emblem', 'Bayonetta', 'Dota 2', 'Half-Life', 'Final Fantasy'}
+Items for user user3: {'Splatoon', 'God of War', 'Dragon Age', 'Battlefield', 'Persona 5', 'Cyberpunk 2077', 'Call of Duty', 'Gears of War', 'Bloodborne', 'Diablo', 'Dark Souls', 'The Witcher 3', 'Fortnite', 'Half-Life', 'World of Warcraft', 'Spider-Man', 'Metal Gear Solid', 'The Legend of Zelda', 'The Last of Us'}
+Recommendations for user1: ['Battlefield', 'The Last of Us', 'Gears of War']
+Insertion Time: 0.000189 seconds
+Retrieval Time: 0.000113 seconds
+Collisions: 14
