@@ -1,0 +1,6 @@
+This project was interesting, I was initially very curious to find out the 
+status of Peter Parker's blood pressure. My hope is that on the next project we get to 
+work with MORE data at once, since the sample sets of real data so far have been pretty
+small. I have a feeling we'll eventually get to that anyway though. Kindof a headache	
+getting Graphviz to work, but it seems like a useful tool from the python software library
+that I will certainly be using again.
