@@ -1,0 +1,31 @@
+PatientID,Name,Age,Diagnosis,BloodPressure,Pulse,BodyTemperature
+10,Professor X,29,Pneumonia,130/85,75,37.3
+5,Tony Stark,60,Arthritis,125/78,72,36.7
+17,Steve Rogers,55,Heart Disease,145/92,82,36.7
+25,Natasha Romanoff,35,Cancer,135/88,77,37.0
+23,Bruce Banner,50,Arthritis,125/78,72,37.1
+3,Clint Barton,45,Hypertension,140/90,80,36.9
+15,Thor Odinson,35,Cold,115/75,68,37.0
+30,Wanda Maximoff,40,Hypertension,110/70,65,37.3
+20,Vision,40,Diabetes,140/90,80,37.3
+27,Stephen Strange,55,Flu,130/85,75,36.7
+12,Carol Danvers,38,Hypertension,110/70,65,36.9
+7,Scott Lang,47,Cancer,135/88,77,37.0
+29,T'Challa,32,Diabetes,140/90,80,36.8
+40,Bucky Barnes,40,Asthma,120/80,70,37.3
+39,Sam Wilson,32,Hypertension,110/70,65,36.8
+6,Natasha Romanoff,32,Cold,115/75,68,37.1
+36,Nick Fury,28,Flu,130/85,75,37.2
+9,Wade Wilson,40,Flu,120/80,70,36.9
+1,Peter Parker,35,Flu,120/80,70,37.0
+45,Loki Laufeyson,35,Flu,130/85,75,37.0
+22,Pepper Potts,38,Asthma,120/80,70,36.9
+11,James Rhodes,65,Diabetes,140/90,80,37.0
+24,Maria Hill,45,Cold,115/75,68,36.8
+50,Gamora,40,Arthritis,125/78,72,37.3
+28,Star-Lord,60,Pneumonia,120/80,70,37.1
+19,Nebula,32,Pneumonia,120/80,70,36.8
+41,Groot,65,Arthritis,125/78,72,37.0
+8,Drax,55,Heart Disease,145/92,82,36.8
+16,Mantis,28,Cancer,135/88,77,37.2
+31,Rocket,65,Asthma,120/80,70,37.0
