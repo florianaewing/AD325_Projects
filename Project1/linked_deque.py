@@ -16,7 +16,9 @@ class LinkedDeque:
     def add_to_front(self, new_data):
         new_node = self.DLNode(None, new_data, self.head)
         if self.is_empty():
-            self.tail = new_node  # If deque is empty, new node is both head and tail
+            self.tail = (
+                new_node  # If deque is empty, new node is both head and tail
+            )
         else:
             self.head.previous_node = new_node
         self.head = new_node
@@ -25,7 +27,9 @@ class LinkedDeque:
     def add_to_back(self, new_data):
         new_node = self.DLNode(self.tail, new_data, None)
         if self.is_empty():
-            self.head = new_node  # If deque is empty, new node is both head and tail
+            self.head = (
+                new_node  # If deque is empty, new node is both head and tail
+            )
         else:
             self.tail.next_node = new_node
         self.tail = new_node

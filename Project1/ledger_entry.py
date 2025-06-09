@@ -1,5 +1,6 @@
 from linked_deque import LinkedDeque
 
+
 class LedgerEntry:
     def __init__(self, stock_symbol):
         self.stock_symbol = stock_symbol
@@ -31,14 +32,14 @@ class LedgerEntry:
         current = self.purchases.peek_front()  # Get the front node
 
         while current:  # Traverse the deque
-            purchase = current.data  # Access the StockPurchase object in the node
+            purchase = (
+                current.data
+            )  # Access the StockPurchase object in the node
             if purchase.shares > 0:
                 output += f"{purchase.cost_per_share:.1f} ({purchase.shares} shares), "
             current = current.next_node  # Move to the next node
 
-        print(output.strip(', '))
+        print(output.strip(", "))
 
     def get_total_shares(self):
         return self.total_shares  # O(1) lookup now
-
-    
